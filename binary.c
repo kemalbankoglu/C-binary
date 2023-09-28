@@ -186,7 +186,7 @@ int main()
 {
     int n, k;
     int a,b;
-
+    printf("----------------------------------\n");
     printf("Lutfen birinci sayiyi giriniz\n"); 
     scanf("%d", &n);
     
@@ -201,6 +201,7 @@ int main()
     printf("\nIkinci sayi: "); 
     n_hesapla(k);
     n_bit_hesapla(k, n_hesapla(k));
+    printf("----------------------------------\n");
 
     return 0;
 }
